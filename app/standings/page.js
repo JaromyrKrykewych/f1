@@ -14,6 +14,7 @@ const OverallStandings = () => {
   const [isLoaded, setIsLoaded] = useState(false);
   const [standings, setStandings] = useState([]);
   const [scuderiaStandings, setScuderiaStandings] = useState([]);
+  const [standingShowed, setStandingShowed] = useState("drivers");
 
   useEffect(() => {
     fetchTrackStats()
@@ -33,8 +34,31 @@ const OverallStandings = () => {
         <F1Loading />
       ) : (
         <div className="mt-12 flex flex-col md:flex-row justify-space-between gap-12 md:gap-8">
+          {/* Opciones */}
+          <div className="flex justify-center gap-4 mb-3 md:hidden">
+            <button
+              onClick={() => setStandingShowed("drivers")}
+              className={`px-4 py-2 rounded-lg text-white ${
+                standingShowed === "drivers" ? "bg-red-500" : "bg-gray-700"
+              }`}
+            >
+              Drivers
+            </button>
+            <button
+              onClick={() => setStandingShowed("scuderias")}
+              className={`px-4 py-2 rounded-lg text-white ${
+                standingShowed === "scuderias" ? "bg-red-500" : "bg-gray-700"
+              }`}
+            >
+              Scuderias
+            </button>
+          </div>
           {/* Drivers */}
-          <div className="w-full max-w-md mx-auto">
+          <div
+            className={`${
+              standingShowed !== "drivers" && "hidden"
+            } w-full max-w-md mx-auto md:flex md:flex-col`}
+          >
             <h2 className="text-white text-xl font-bold mb-5">
               {`Driver's Standing`}
             </h2>
@@ -77,7 +101,11 @@ const OverallStandings = () => {
             </div>
           </div>
           {/* Scuderias */}
-          <div className="w-full max-w-sm mx-auto">
+          <div
+            className={`${
+              standingShowed !== "scuderias" && "hidden"
+            } w-full max-w-md mx-auto md:flex md:flex-col`}
+          >
             <h2 className="text-white text-xl font-bold mb-5">
               {`Scuderia's Standing`}
             </h2>
