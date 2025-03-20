@@ -36,7 +36,7 @@ const OverallStandings = () => {
           {/* Drivers */}
           <div className="w-full max-w-md mx-auto">
             <h2 className="text-white text-xl font-bold mb-5">
-              Driver's Standing
+              {`Driver's Standing`}
             </h2>
             {/* Encabezado */}
             <div className="grid grid-cols-[15%_40%_15%_15%_15%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
@@ -79,7 +79,7 @@ const OverallStandings = () => {
           {/* Scuderias */}
           <div className="w-full max-w-sm mx-auto">
             <h2 className="text-white text-xl font-bold mb-5">
-              Scuderia's Standing
+              {`Scuderia's Standing`}
             </h2>
             {/* Encabezado */}
             <div className="grid grid-cols-[15%_55%_15%_15%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
