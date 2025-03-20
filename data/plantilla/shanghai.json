@@ -1,0 +1,167 @@
+{
+  "race": "Chinese Grand Prix",
+  "laps": 56,
+  "year": 2024,
+  "results": [
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 1,
+      "pointsRace": 25,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 2,
+      "pointsRace": 18,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 3,
+      "pointsRace": 15,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 4,
+      "pointsRace": 12,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 5,
+      "pointsRace": 10,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 6,
+      "pointsRace": 8,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 7,
+      "pointsRace": 6,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 8,
+      "pointsRace": 4,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 9,
+      "pointsRace": 2,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 10,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 11,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 12,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 13,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 14,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 15,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 16,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 17,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 18,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 19,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "",
+      "scuderia": "",
+      "position": 20,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    }
+  ]
+}

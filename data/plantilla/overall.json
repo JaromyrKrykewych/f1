@@ -1,0 +1,158 @@
+{
+  "race": "",
+  "races": 5,
+  "drivers": [
+    {
+      "driver": "",
+      "position": 1,
+      "pointsRace": 25
+    },
+    {
+      "driver": "",
+      "position": 2,
+      "pointsRace": 18
+    },
+    {
+      "driver": "",
+      "position": 3,
+      "pointsRace": 15
+    },
+    {
+      "driver": "",
+      "position": 4,
+      "pointsRace": 12
+    },
+    {
+      "driver": "",
+      "position": 5,
+      "pointsRace": 10
+    },
+    {
+      "driver": "",
+      "position": 6,
+      "pointsRace": 8
+    },
+    {
+      "driver": "",
+      "position": 7,
+      "pointsRace": 6
+    },
+    {
+      "driver": "",
+      "position": 8,
+      "pointsRace": 4
+    },
+    {
+      "driver": "",
+      "position": 9,
+      "pointsRace": 2
+    },
+    {
+      "driver": "",
+      "position": 10,
+      "pointsRace": 1
+    },
+    {
+      "driver": "",
+      "position": 11,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 12,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 13,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 14,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 15,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 16,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 17,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 18,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 19,
+      "pointsRace": 0
+    },
+    {
+      "driver": "",
+      "position": 20,
+      "pointsRace": 0
+    }
+  ],
+  "scuderias": [
+    {
+      "scuderia": "",
+      "position": 1,
+      "pointsRace": 25
+    },
+    {
+      "scuderia": "",
+      "position": 2,
+      "pointsRace": 18
+    },
+    {
+      "scuderia": "",
+      "position": 3,
+      "pointsRace": 15
+    },
+    {
+      "scuderia": "",
+      "position": 4,
+      "pointsRace": 12
+    },
+    {
+      "scuderia": "",
+      "position": 5,
+      "pointsRace": 10
+    },
+    {
+      "scuderia": "",
+      "position": 6,
+      "pointsRace": 8
+    },
+    {
+      "scuderia": "",
+      "position": 7,
+      "pointsRace": 6
+    },
+    {
+      "scuderia": "",
+      "position": 8,
+      "pointsRace": 4
+    },
+    {
+      "scuderia": "",
+      "position": 9,
+      "pointsRace": 2
+    },
+    {
+      "scuderia": "",
+      "position": 10,
+      "pointsRace": 1
+    }
+  ]
+}

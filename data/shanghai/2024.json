@@ -1,0 +1,167 @@
+{
+  "race": "Chinese Grand Prix",
+  "laps": 56,
+  "year": 2024,
+  "results": [
+    {
+      "driver": "Max Verstappen",
+      "scuderia": "Red Bull",
+      "position": 1,
+      "pointsRace": 25,
+      "lapsLed": 51,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lando Norris",
+      "scuderia": "McLaren",
+      "position": 2,
+      "pointsRace": 18,
+      "lapsLed": 5,
+      "fastedLap": false
+    },
+    {
+      "driver": "Sergio Perez",
+      "scuderia": "Red Bull",
+      "position": 3,
+      "pointsRace": 15,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Charles Leclerc",
+      "scuderia": "Ferrari",
+      "position": 4,
+      "pointsRace": 12,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "Ferrari",
+      "position": 5,
+      "pointsRace": 10,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "George Russell",
+      "scuderia": "Mercedes",
+      "position": 6,
+      "pointsRace": 8,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Fernando Alonso",
+      "scuderia": "Aston Martin",
+      "position": 7,
+      "pointsRace": 6,
+      "lapsLed": 0,
+      "fastedLap": true
+    },
+    {
+      "driver": "Oscar Piastri",
+      "scuderia": "McLaren",
+      "position": 8,
+      "pointsRace": 4,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "scuderia": "Mercedes",
+      "position": 9,
+      "pointsRace": 2,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Nico Hulkenberg",
+      "scuderia": "Haas",
+      "position": 10,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Esteban Ocon",
+      "scuderia": "Alpine",
+      "position": 11,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Alexander Albon",
+      "scuderia": "Williams",
+      "position": 12,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Pierre Gasly",
+      "scuderia": "Alpine",
+      "position": 13,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Guanyu Zhou",
+      "scuderia": "Sauber",
+      "position": 14,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lance Stroll",
+      "scuderia": "Aston Martin",
+      "position": 15,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Kevin Magnussen",
+      "scuderia": "Haas",
+      "position": 16,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Logan Sargeant",
+      "scuderia": "Williams",
+      "position": 17,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Daniel Ricciardo",
+      "scuderia": "Racing Bulls",
+      "position": 18,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Yuki Tsunoda",
+      "scuderia": "Racing Bulls",
+      "position": 19,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Valtteri Bottas",
+      "scuderia": "Sauber",
+      "position": 20,
+      "pointsRace": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    }
+  ]
+}
