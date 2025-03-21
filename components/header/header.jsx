@@ -19,7 +19,7 @@ export default function Navbar() {
             href="/"
             className="absolute w-20 h-20 md:w-[100px] md:h-[100px]"
           >
-            <Image src={"/images/f1.png"} alt="f1" fill priority />
+            <Image src={"/images/f1.png"} alt="f1" sizes="50vw" fill priority />
           </Link>
           <div>
             <h1 className="text-lg font-semibold">Formula 1</h1>
@@ -38,7 +38,12 @@ export default function Navbar() {
           </li>
           <li>
             <Link href="/standings" className="hover:text-red-500 transition">
-              Standings
+              Rare Standings
+            </Link>
+          </li>
+          <li>
+            <Link href="/seasons" className="hover:text-red-500 transition">
+              Seasons
             </Link>
           </li>
         </ul>
@@ -59,7 +64,12 @@ export default function Navbar() {
           </li>
           <li onClick={() => setIsOpen(false)}>
             <Link href="/standings" className="hover:text-red-500 transition">
-              Standings
+              Rare Standings
+            </Link>
+          </li>
+          <li>
+            <Link href="/seasons" className="hover:text-red-500 transition">
+              Seasons
             </Link>
           </li>
         </ul>
