@@ -33,7 +33,11 @@ export async function GET(req, { params }) {
       try {
         await fs.access(filePath); // Verifica si el archivo existe
         const fileContent = await fs.readFile(filePath, "utf8");
-        return { track, data: JSON.parse(fileContent) };
+        return {
+          track,
+          data: JSON.parse(fileContent),
+          sprintData: false,
+        };
       } catch {
         return { track, data: null }; // Si no existe, retorna null
       }
@@ -54,18 +58,27 @@ export async function GET(req, { params }) {
     scuderiaRanking.set(scuderia, currentPoints + points);
   };
 
+  console.log(seasonData);
+
   seasonData.forEach(({ data }) => {
     if (!data) return;
+    if (data.results) {
+      data.results.forEach(({ driver, pointsRace, position, scuderia }) => {
+        addPoints(driver, pointsRace);
+        addScuderiaPoints(scuderia, pointsRace);
 
-    data.results.forEach(({ driver, pointsRace, position, scuderia }) => {
-      addPoints(driver, pointsRace);
-      addScuderiaPoints(scuderia, pointsRace);
-
-      // Count wins (if position is 1)
-      if (position === 1) {
-        driverWins.set(driver, (driverWins.get(driver) || 0) + 1);
-      }
-    });
+        // Count wins (if position is 1)
+        if (position === 1) {
+          driverWins.set(driver, (driverWins.get(driver) || 0) + 1);
+        }
+      });
+    }
+    if (data.sprint) {
+      data.sprint.forEach(({ driver, pointsRace, scuderia }) => {
+        addPoints(driver, pointsRace);
+        addScuderiaPoints(scuderia, pointsRace);
+      });
+    }
   });
 
   const standings = Array.from(pointsMap.entries())
