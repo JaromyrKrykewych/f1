@@ -4,7 +4,7 @@ const seasons = [
   {
     year: 2025,
     leader: "Lando Norris",
-    races: 1,
+    races: 2,
     path: "/seasons/2025",
   },
   {

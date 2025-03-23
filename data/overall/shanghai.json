@@ -3,12 +3,12 @@
   "races": 3,
   "drivers": [
     {
-      "driver": "Max Verstappen",
+      "driver": "Lewis Hamilton",
       "position": 1,
       "pointsRace": 25
     },
     {
-      "driver": "Lewis Hamilton",
+      "driver": "Max Verstappen",
       "position": 2,
       "pointsRace": 18
     },
@@ -18,7 +18,7 @@
       "pointsRace": 15
     },
     {
-      "driver": "Sergio Perez",
+      "driver": "Daniel Ricciardo",
       "position": 4,
       "pointsRace": 12
     },
@@ -28,12 +28,12 @@
       "pointsRace": 10
     },
     {
-      "driver": "Daniel Ricciardo",
+      "driver": "Charles Leclerc",
       "position": 6,
       "pointsRace": 8
     },
     {
-      "driver": "Charles Leclerc",
+      "driver": "Lando Norris",
       "position": 7,
       "pointsRace": 6
     },
@@ -43,62 +43,62 @@
       "pointsRace": 4
     },
     {
-      "driver": "Fernando Alonso",
+      "driver": "Oscar Piastri",
       "position": 9,
       "pointsRace": 2
     },
     {
-      "driver": "Carlos Sainz, Jr.",
+      "driver": "Sergio Perez",
       "position": 10,
       "pointsRace": 1
     },
     {
-      "driver": "Lando Norris",
+      "driver": "George Russell",
       "position": 11,
       "pointsRace": 0
     },
     {
-      "driver": "Nico Hulkenberg",
+      "driver": "Carlos Sainz, Jr.",
       "position": 12,
       "pointsRace": 0
     },
     {
-      "driver": "Pierre Gasly",
+      "driver": "Esteban Ocon",
       "position": 13,
       "pointsRace": 0
     },
     {
-      "driver": "Oscar Piastri",
+      "driver": "Fernando Alonso",
       "position": 14,
       "pointsRace": 0
     },
     {
-      "driver": "George Russell",
+      "driver": "Pierre Gasly",
       "position": 15,
       "pointsRace": 0
     },
     {
-      "driver": "Alexander Albon",
+      "driver": "Andrea Kimi Antonelli",
       "position": 16,
       "pointsRace": 0
     },
     {
-      "driver": "Kevin Magnussen",
+      "driver": "Nico Hulkenberg",
       "position": 17,
       "pointsRace": 0
     },
     {
-      "driver": "Esteban Ocon",
+      "driver": "Kevin Magnussen",
       "position": 18,
       "pointsRace": 0
     },
     {
-      "driver": "Lance Stroll",
+      "driver": "Alexander Albon",
       "position": 19,
       "pointsRace": 0
     },
     {
-      "driver": "Stoffel Vandoorne",
+      "driver": "Oliver Bearman",
       "position": 20,
       "pointsRace": 0
     }
@@ -130,27 +130,27 @@
       "pointsRace": 10
     },
     {
-      "scuderia": "Aston Martin",
+      "scuderia": "Haas",
       "position": 6,
       "pointsRace": 8
     },
     {
-      "scuderia": "Racing Point",
+      "scuderia": "Aston Martin",
       "position": 7,
       "pointsRace": 6
     },
     {
-      "scuderia": "Alfa Romeo",
+      "scuderia": "Toro Rosso",
       "position": 8,
       "pointsRace": 4
     },
     {
-      "scuderia": "Haas",
+      "scuderia": "Racing Point",
       "position": 9,
       "pointsRace": 2
     },
     {
-      "scuderia": "Toro Rosso",
+      "scuderia": "Force India",
       "position": 10,
       "pointsRace": 1
     }
