@@ -36,7 +36,6 @@ export async function GET(req, { params }) {
         return {
           track,
           data: JSON.parse(fileContent),
-          sprintData: false,
         };
       } catch {
         return { track, data: null }; // Si no existe, retorna null
@@ -58,14 +57,12 @@ export async function GET(req, { params }) {
     scuderiaRanking.set(scuderia, currentPoints + points);
   };
 
-  console.log(seasonData);
-
   seasonData.forEach(({ data }) => {
     if (!data) return;
     if (data.results) {
-      data.results.forEach(({ driver, pointsRace, position, scuderia }) => {
-        addPoints(driver, pointsRace);
-        addScuderiaPoints(scuderia, pointsRace);
+      data.results.forEach(({ driver, finalPoints, position, scuderia }) => {
+        addPoints(driver, finalPoints);
+        addScuderiaPoints(scuderia, finalPoints);
 
         // Count wins (if position is 1)
         if (position === 1) {

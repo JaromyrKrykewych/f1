@@ -8,6 +8,7 @@
       "scuderia": "Red Bull",
       "position": 1,
       "pointsRace": 25,
+      "finalPoints": 25,
       "lapsLed": 51,
       "fastedLap": false
     },
@@ -16,6 +17,7 @@
       "scuderia": "McLaren",
       "position": 2,
       "pointsRace": 18,
+      "finalPoints": 18,
       "lapsLed": 5,
       "fastedLap": false
     },
@@ -24,6 +26,7 @@
       "scuderia": "Red Bull",
       "position": 3,
       "pointsRace": 15,
+      "finalPoints": 15,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -32,6 +35,7 @@
       "scuderia": "Ferrari",
       "position": 4,
       "pointsRace": 12,
+      "finalPoints": 12,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -40,6 +44,7 @@
       "scuderia": "Ferrari",
       "position": 5,
       "pointsRace": 10,
+      "finalPoints": 10,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -48,6 +53,7 @@
       "scuderia": "Mercedes",
       "position": 6,
       "pointsRace": 8,
+      "finalPoints": 8,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -56,6 +62,7 @@
       "scuderia": "Aston Martin",
       "position": 7,
       "pointsRace": 6,
+      "finalPoints": 7,
       "lapsLed": 0,
       "fastedLap": true
     },
@@ -64,6 +71,7 @@
       "scuderia": "McLaren",
       "position": 8,
       "pointsRace": 4,
+      "finalPoints": 4,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -72,6 +80,7 @@
       "scuderia": "Mercedes",
       "position": 9,
       "pointsRace": 2,
+      "finalPoints": 2,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -80,6 +89,7 @@
       "scuderia": "Haas",
       "position": 10,
       "pointsRace": 1,
+      "finalPoints": 1,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -88,6 +98,7 @@
       "scuderia": "Alpine",
       "position": 11,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -96,6 +107,7 @@
       "scuderia": "Williams",
       "position": 12,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -104,6 +116,7 @@
       "scuderia": "Alpine",
       "position": 13,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -112,6 +125,7 @@
       "scuderia": "Sauber",
       "position": 14,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -120,6 +134,7 @@
       "scuderia": "Aston Martin",
       "position": 15,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -128,6 +143,7 @@
       "scuderia": "Haas",
       "position": 16,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -136,6 +152,7 @@
       "scuderia": "Williams",
       "position": 17,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -144,6 +161,7 @@
       "scuderia": "Racing Bulls",
       "position": 18,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -152,6 +170,7 @@
       "scuderia": "Racing Bulls",
       "position": 19,
       "pointsRace": 0,
+      "finalPoints": 0,
       "lapsLed": 0,
       "fastedLap": false
     },
@@ -160,6 +179,73 @@
       "scuderia": "Sauber",
       "position": 20,
       "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    }
+  ],
+  "sprint": [
+    {
+      "driver": "Max Verstappen",
+      "scuderia": "Red Bull",
+      "position": 1,
+      "pointsRace": 8,
+      "lapsLed": 19,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "scuderia": "Mercedes",
+      "position": 2,
+      "pointsRace": 7,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Sergio Perez",
+      "scuderia": "Red Bull",
+      "position": 3,
+      "pointsRace": 6,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Charles Leclerc",
+      "scuderia": "Ferrari",
+      "position": 4,
+      "pointsRace": 5,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "Ferrari",
+      "position": 5,
+      "pointsRace": 4,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lando Norris",
+      "scuderia": "McLaren",
+      "position": 6,
+      "pointsRace": 3,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Oscar Piastri",
+      "scuderia": "McLaren",
+      "position": 7,
+      "pointsRace": 2,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "George Russell",
+      "scuderia": "Mercedes",
+      "position": 8,
+      "pointsRace": 1,
       "lapsLed": 0,
       "fastedLap": false
     }
