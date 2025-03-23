@@ -40,8 +40,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Charles Leclerc",
-      "scuderia": "Ferrari",
+      "driver": "Esteban Ocon",
+      "scuderia": "Haas",
       "position": 5,
       "pointsRace": 10,
       "finalPoints": 10,
@@ -49,8 +49,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Lewis Hamilton",
-      "scuderia": "Ferrari",
+      "driver": "Andrea Kimi Antonelli",
+      "scuderia": "Mercedes",
       "position": 6,
       "pointsRace": 8,
       "finalPoints": 8,
@@ -58,8 +58,8 @@
       "fastedLap": true
     },
     {
-      "driver": "Esteban Ocon",
-      "scuderia": "Haas",
+      "driver": "Alexander Albon",
+      "scuderia": "Williams",
       "position": 7,
       "pointsRace": 6,
       "finalPoints": 6,
@@ -67,8 +67,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Andrea Kimi Antonelli",
-      "scuderia": "Mercedes",
+      "driver": "Oliver Bearman",
+      "scuderia": "Haas",
       "position": 8,
       "pointsRace": 4,
       "finalPoints": 4,
@@ -76,8 +76,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Alexander Albon",
-      "scuderia": "Williams",
+      "driver": "Lance Stroll",
+      "scuderia": "Aston Martin",
       "position": 9,
       "pointsRace": 2,
       "finalPoints": 2,
@@ -85,8 +85,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Oliver Bearman",
-      "scuderia": "Haas",
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "Williams",
       "position": 10,
       "pointsRace": 1,
       "finalPoints": 1,
@@ -94,36 +94,9 @@
       "fastedLap": false
     },
     {
-      "driver": "Pierre Gasly",
-      "scuderia": "Alpine",
-      "position": 11,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Lance Stroll",
-      "scuderia": "Aston Martin",
-      "position": 12,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Carlos Sainz, Jr.",
-      "scuderia": "Williams",
-      "position": 13,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
       "driver": "Isack Hadjar",
       "scuderia": "Racing Bulls",
-      "position": 14,
+      "position": 11,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -132,7 +105,7 @@
     {
       "driver": "Liam Lawson",
       "scuderia": "Red Bull",
-      "position": 15,
+      "position": 12,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -141,7 +114,7 @@
     {
       "driver": "Jack Doohan",
       "scuderia": "Alpine",
-      "position": 16,
+      "position": 13,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -150,7 +123,7 @@
     {
       "driver": "Gabriel Bortoleto",
       "scuderia": "Sauber",
-      "position": 17,
+      "position": 14,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -159,7 +132,7 @@
     {
       "driver": "Nico Hulkenberg",
       "scuderia": "Sauber",
-      "position": 18,
+      "position": 15,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -168,7 +141,7 @@
     {
       "driver": "Yuki Tsunoda",
       "scuderia": "Racing Bulls",
-      "position": 19,
+      "position": 16,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -177,6 +150,33 @@
     {
       "driver": "Fernando Alonso",
       "scuderia": "McLaren",
+      "position": 17,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Charles Leclerc",
+      "scuderia": "Ferrari",
+      "position": 18,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "scuderia": "Ferrari",
+      "position": 19,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Pierre Gasly",
+      "scuderia": "Alpine",
       "position": 20,
       "pointsRace": 0,
       "finalPoints": 0,

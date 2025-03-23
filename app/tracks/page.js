@@ -25,6 +25,12 @@ const tracks = [
     races: 3,
     path: "/tracks/bahrain",
   },
+  {
+    name: "Jeddah",
+    alias: "Saudi Arabian Grand Prix",
+    races: 1,
+    path: "/tracks/jeddah",
+  },
 ];
 
 const Tracks = () => {
