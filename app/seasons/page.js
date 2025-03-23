@@ -13,6 +13,36 @@ const seasons = [
     races: 3,
     path: "/seasons/2024",
   },
+  {
+    year: 2023,
+    leader: "Max Verstappen",
+    races: 2,
+    path: "/seasons/2023",
+  },
+  {
+    year: 2022,
+    leader: "Charles Leclerc",
+    races: 2,
+    path: "/seasons/2022",
+  },
+  {
+    year: 2019,
+    leader: "Valtteri Bottas",
+    races: 2,
+    path: "/seasons/2019",
+  },
+  {
+    year: 2018,
+    leader: "Daniel Ricciardo",
+    races: 1,
+    path: "/seasons/2018",
+  },
+  {
+    year: 2017,
+    leader: "Lewis Hamilton",
+    races: 1,
+    path: "/seasons/2017",
+  },
 ];
 
 const SeasonsPage = () => {

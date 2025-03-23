@@ -40,32 +40,40 @@ export async function GET(req, { params }) {
         scuderiaRanking.set(scuderia, currentPoints + points);
       };
 
-      raceData.results.forEach(
-        ({ driver, pointsRace, position, lapsLed, fastedLap, scuderia }) => {
-          addPoints(driver, pointsRace, fastedLap);
+      if (raceData.results) {
+        raceData.results.forEach(
+          ({ driver, pointsRace, position, lapsLed, fastedLap, scuderia }) => {
+            addPoints(driver, pointsRace, fastedLap);
+            addScuderiaPoints(scuderia, pointsRace);
+            if (!positionMap.has(driver)) {
+              positionMap.set(driver, []);
+            }
+            if (!scuderiaPosition.has(scuderia)) {
+              scuderiaPosition.set(scuderia, []);
+            }
+            positionMap.get(driver).push(position);
+            scuderiaPosition.get(scuderia).push(position);
+
+            // Count wins (if position is 1)
+            if (position === 1) {
+              driverWins.set(driver, (driverWins.get(driver) || 0) + 1);
+            }
+
+            // Count number of races the driver has participated in
+            driverRaces.set(driver, (driverRaces.get(driver) || 0) + 1);
+
+            //Count lapsLed by driver
+            const currentLaps = lapsLedMap.get(driver) || 0;
+            lapsLedMap.set(driver, currentLaps + lapsLed);
+          }
+        );
+      }
+      if (raceData.sprint) {
+        raceData.sprint.forEach(({ driver, pointsRace, scuderia }) => {
+          addPoints(driver, pointsRace);
           addScuderiaPoints(scuderia, pointsRace);
-          if (!positionMap.has(driver)) {
-            positionMap.set(driver, []);
-          }
-          if (!scuderiaPosition.has(scuderia)) {
-            scuderiaPosition.set(scuderia, []);
-          }
-          positionMap.get(driver).push(position);
-          scuderiaPosition.get(scuderia).push(position);
-
-          // Count wins (if position is 1)
-          if (position === 1) {
-            driverWins.set(driver, (driverWins.get(driver) || 0) + 1);
-          }
-
-          // Count number of races the driver has participated in
-          driverRaces.set(driver, (driverRaces.get(driver) || 0) + 1);
-
-          //Count lapsLed by driver
-          const currentLaps = lapsLedMap.get(driver) || 0;
-          lapsLedMap.set(driver, currentLaps + lapsLed);
-        }
-      );
+        });
+      }
     }
 
     // Convertir el Map a un array ordenado
