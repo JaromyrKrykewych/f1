@@ -35,8 +35,13 @@ export async function GET(req, { params }) {
         pointsMap.set(driver, currentPoints + points);
       };
 
-      const addScuderiaPoints = (scuderia, points) => {
+      const addScuderiaPoints = (scuderia, points, fastedLap) => {
         const currentPoints = scuderiaRanking.get(scuderia) || 0;
+
+        if (fastedLap) {
+          points += 1;
+        }
+
         scuderiaRanking.set(scuderia, currentPoints + points);
       };
 
@@ -44,7 +49,7 @@ export async function GET(req, { params }) {
         raceData.results.forEach(
           ({ driver, pointsRace, position, lapsLed, fastedLap, scuderia }) => {
             addPoints(driver, pointsRace, fastedLap);
-            addScuderiaPoints(scuderia, pointsRace);
+            addScuderiaPoints(scuderia, pointsRace, fastedLap);
             if (!positionMap.has(driver)) {
               positionMap.set(driver, []);
             }

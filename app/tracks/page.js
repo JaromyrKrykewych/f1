@@ -10,7 +10,7 @@ const tracks = [
   {
     name: "Shanghai",
     alias: "Chinese Grand Prix",
-    races: 3,
+    races: 4,
     path: "/tracks/shanghai",
   },
   {
@@ -18,6 +18,12 @@ const tracks = [
     alias: "Japanese Grand Prix",
     races: 3,
     path: "/tracks/suzuka",
+  },
+  {
+    name: "Bahrain",
+    alias: "Bahrain Grand Prix",
+    races: 3,
+    path: "/tracks/bahrain",
   },
 ];
 
