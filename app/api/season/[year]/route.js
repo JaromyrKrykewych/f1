@@ -45,6 +45,7 @@ export async function GET(req, { params }) {
 
   let pointsMap = new Map();
   const driverWins = new Map();
+  const driverScuderia = new Map();
   const scuderiaRanking = new Map();
 
   const addPoints = (driver, points) => {
@@ -57,13 +58,19 @@ export async function GET(req, { params }) {
     scuderiaRanking.set(scuderia, currentPoints + points);
   };
 
+  const setScuderia = (driver, scuderia) => {
+    if (!driverScuderia.has(driver)) {
+      driverScuderia.set(driver, scuderia);
+    }
+  };
+
   seasonData.forEach(({ data }) => {
     if (!data) return;
     if (data.results) {
       data.results.forEach(({ driver, finalPoints, position, scuderia }) => {
         addPoints(driver, finalPoints);
         addScuderiaPoints(scuderia, finalPoints);
-
+        setScuderia(driver, scuderia);
         // Count wins (if position is 1)
         if (position === 1) {
           driverWins.set(driver, (driverWins.get(driver) || 0) + 1);
@@ -82,6 +89,7 @@ export async function GET(req, { params }) {
     .map(([driver, points]) => ({
       driver,
       points,
+      scuderia: driverScuderia.get(driver) || "Uknown",
       wins: driverWins.get(driver) || 0,
     }))
     .sort((a, b) => b.points - a.points || b.wins - a.wins);

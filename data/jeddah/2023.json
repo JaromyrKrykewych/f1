@@ -4,35 +4,35 @@
   "year": 2024,
   "results": [
     {
-      "driver": "Max Verstappen",
+      "driver": "Sergio Perez",
       "scuderia": "Red Bull",
       "position": 1,
       "pointsRace": 25,
       "finalPoints": 25,
-      "lapsLed": 45,
+      "lapsLed": 47,
       "fastedLap": false
     },
     {
-      "driver": "Sergio Perez",
+      "driver": "Max Verstappen",
       "scuderia": "Red Bull",
       "position": 2,
       "pointsRace": 18,
-      "finalPoints": 18,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Charles Leclerc",
-      "scuderia": "Ferrari",
-      "position": 3,
-      "pointsRace": 15,
-      "finalPoints": 16,
+      "finalPoints": 19,
       "lapsLed": 0,
       "fastedLap": true
     },
     {
-      "driver": "Oscar Piastri",
-      "scuderia": "McLaren",
+      "driver": "Fernando Alonso",
+      "scuderia": "Aston Martin",
+      "position": 3,
+      "pointsRace": 15,
+      "finalPoints": 15,
+      "lapsLed": 3,
+      "fastedLap": false
+    },
+    {
+      "driver": "George Russell",
+      "scuderia": "Mercedes",
       "position": 4,
       "pointsRace": 12,
       "finalPoints": 12,
@@ -40,8 +40,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Fernando Alonso",
-      "scuderia": "Aston Martin",
+      "driver": "Lewis Hamilton",
+      "scuderia": "Mercedes",
       "position": 5,
       "pointsRace": 10,
       "finalPoints": 10,
@@ -49,8 +49,8 @@
       "fastedLap": false
     },
     {
-      "driver": "George Russell",
-      "scuderia": "Mercedes",
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "Ferrari",
       "position": 6,
       "pointsRace": 8,
       "finalPoints": 8,
@@ -58,7 +58,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Oliver Bearman",
+      "driver": "Charles Leclerc",
       "scuderia": "Ferrari",
       "position": 7,
       "pointsRace": 6,
@@ -67,17 +67,17 @@
       "fastedLap": false
     },
     {
-      "driver": "Lando Norris",
-      "scuderia": "McLaren",
+      "driver": "Esteban Ocon",
+      "scuderia": "Alpine",
       "position": 8,
       "pointsRace": 4,
       "finalPoints": 4,
-      "lapsLed": 5,
+      "lapsLed": 0,
       "fastedLap": false
     },
     {
-      "driver": "Lewis Hamilton",
-      "scuderia": "Mercedes",
+      "driver": "Pierre Gasly",
+      "scuderia": "Alpine",
       "position": 9,
       "pointsRace": 2,
       "finalPoints": 2,
@@ -85,7 +85,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Nico Hulkenberg",
+      "driver": "Kevin Magnussen",
       "scuderia": "Haas",
       "position": 10,
       "pointsRace": 1,
@@ -94,8 +94,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Alexander Albon",
-      "scuderia": "Williams",
+      "driver": "Yuki Tsunoda",
+      "scuderia": "AlphaTauri",
       "position": 11,
       "pointsRace": 0,
       "finalPoints": 0,
@@ -103,7 +103,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Kevin Magnussen",
+      "driver": "Nico Hulkenberg",
       "scuderia": "Haas",
       "position": 12,
       "pointsRace": 0,
@@ -112,9 +112,27 @@
       "fastedLap": false
     },
     {
-      "driver": "Esteban Ocon",
-      "scuderia": "Alpine",
+      "driver": "Guanyu Zhou",
+      "scuderia": "Alfa Romeo",
       "position": 13,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Nyck de Vries",
+      "scuderia": "AlphaTauri",
+      "position": 14,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Oscar Piastri",
+      "scuderia": "McLaren",
+      "position": 15,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -123,24 +141,6 @@
     {
       "driver": "Logan Sargeant",
       "scuderia": "Williams",
-      "position": 14,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Yuki Tsunoda",
-      "scuderia": "Racing Bulls",
-      "position": 15,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Daniel Ricciardo",
-      "scuderia": "Racing Bulls",
       "position": 16,
       "pointsRace": 0,
       "finalPoints": 0,
@@ -148,8 +148,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Valtteri Bottas",
-      "scuderia": "Sauber",
+      "driver": "Lando Norris",
+      "scuderia": "McLaren",
       "position": 17,
       "pointsRace": 0,
       "finalPoints": 0,
@@ -157,9 +157,18 @@
       "fastedLap": false
     },
     {
-      "driver": "Guanyu Zhou",
-      "scuderia": "Sauber",
+      "driver": "Valtteri Bottas",
+      "scuderia": "Alfa Romeo",
       "position": 18,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Alexander Albon",
+      "scuderia": "Williams",
+      "position": 19,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -168,15 +177,6 @@
     {
       "driver": "Lance Stroll",
       "scuderia": "Aston Martin",
-      "position": 19,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Pierre Gasly",
-      "scuderia": "Alpine",
       "position": 20,
       "pointsRace": 0,
       "finalPoints": 0,

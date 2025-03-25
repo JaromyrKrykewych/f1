@@ -67,9 +67,10 @@ const SeasonYear = () => {
               {`Driver's Standing`}
             </h2>
             {/* Encabezado */}
-            <div className="grid grid-cols-[15%_55%_15%_15%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
+            <div className="grid grid-cols-[12%_36%_28%_12%_12%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
               <span>Pos.</span>
               <span>Driver</span>
+              <span>Team</span>
               <span className="text-center">Wins</span>
               <span className="text-center">Pts</span>
             </div>
@@ -79,7 +80,7 @@ const SeasonYear = () => {
               {standings.map((entry, index) => (
                 <div
                   key={index}
-                  className={`grid grid-cols-[15%_55%_15%_15%] py-3 px-4 border-b border-gray-500 items-center
+                  className={`grid grid-cols-[12%_36%_28%_12%_12%] py-3 px-4 border-b border-gray-500 items-center
                 ${
                   index === 0
                     ? "bg-yellow-500 text-gray-900 font-bold"
@@ -98,6 +99,7 @@ const SeasonYear = () => {
                 >
                   <span className="font-bold text-lg">{entry.position}</span>
                   <span>{entry.driver}</span>
+                  <span>{entry.scuderia}</span>
                   <span className="text-center">{entry.wins}</span>
                   <span className="font-semibold text-red-500 text-center">
                     {entry.points}
@@ -110,13 +112,13 @@ const SeasonYear = () => {
           <div
             className={`${
               standingShowed !== "scuderias" && "hidden"
-            } w-full max-w-sm mx-auto md:flex md:flex-col`}
+            } w-full max-w-xs mx-auto md:flex md:flex-col`}
           >
             <h2 className="text-white text-xl font-bold mb-5">
               {`Scuderia's Standing`}
             </h2>
             {/* Encabezado */}
-            <div className="grid grid-cols-[15%_60%_25%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
+            <div className="grid grid-cols-[20%_55%_25%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
               <span>Pos.</span>
               <span>Scuderia</span>
               <span className="text-center">Pts</span>
@@ -127,7 +129,7 @@ const SeasonYear = () => {
               {scuderiaStandings.map((entry, index) => (
                 <div
                   key={index}
-                  className={`grid grid-cols-[15%_60%_25%] py-3 px-4 border-b border-gray-500 items-center
+                  className={`grid grid-cols-[20%_55%_25%] py-3 px-4 border-b border-gray-500 items-center
                 ${
                   index === 0
                     ? "bg-yellow-500 text-gray-900 font-bold"
