@@ -1,0 +1,309 @@
+{
+  "drivers": [
+    {
+      "driver": "Max Verstappen",
+      "points": 68,
+      "wins": 2,
+      "races": 3,
+      "positions": [
+        1,
+        2,
+        1
+      ]
+    },
+    {
+      "driver": "Sergio Perez",
+      "points": 55,
+      "wins": 1,
+      "races": 3,
+      "positions": [
+        4,
+        1,
+        2
+      ]
+    },
+    {
+      "driver": "Charles Leclerc",
+      "points": 39,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        2,
+        7,
+        3
+      ]
+    },
+    {
+      "driver": "George Russell",
+      "points": 30,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        5,
+        4,
+        6
+      ]
+    },
+    {
+      "driver": "Fernando Alonso",
+      "points": 25,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        16,
+        3,
+        5
+      ]
+    },
+    {
+      "driver": "Carlos Sainz, Jr.",
+      "points": 23,
+      "wins": 0,
+      "races": 2,
+      "positions": [
+        3,
+        6
+      ]
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "points": 13,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        10,
+        5,
+        9
+      ]
+    },
+    {
+      "driver": "Esteban Ocon",
+      "points": 12,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        6,
+        8,
+        13
+      ]
+    },
+    {
+      "driver": "Oscar Piastri",
+      "points": 12,
+      "wins": 0,
+      "races": 2,
+      "positions": [
+        15,
+        4
+      ]
+    },
+    {
+      "driver": "Lando Norris",
+      "points": 10,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        7,
+        17,
+        8
+      ]
+    },
+    {
+      "driver": "Pierre Gasly",
+      "points": 6,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        8,
+        9,
+        20
+      ]
+    },
+    {
+      "driver": "Oliver Bearman",
+      "points": 6,
+      "wins": 0,
+      "races": 1,
+      "positions": [
+        7
+      ]
+    },
+    {
+      "driver": "Kevin Magnussen",
+      "points": 3,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        9,
+        10,
+        12
+      ]
+    },
+    {
+      "driver": "Nico Hulkenberg",
+      "points": 1,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        12,
+        12,
+        10
+      ]
+    },
+    {
+      "driver": "Guanyu Zhou",
+      "points": 0,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        11,
+        13,
+        18
+      ]
+    },
+    {
+      "driver": "Lance Stroll",
+      "points": 0,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        13,
+        20,
+        19
+      ]
+    },
+    {
+      "driver": "Alexander Albon",
+      "points": 0,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        14,
+        19,
+        11
+      ]
+    },
+    {
+      "driver": "Valtteri Bottas",
+      "points": 0,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        15,
+        18,
+        17
+      ]
+    },
+    {
+      "driver": "Daniel Ricciardo",
+      "points": 0,
+      "wins": 0,
+      "races": 2,
+      "positions": [
+        17,
+        16
+      ]
+    },
+    {
+      "driver": "Nicholas Latifi",
+      "points": 0,
+      "wins": 0,
+      "races": 1,
+      "positions": [
+        18
+      ]
+    },
+    {
+      "driver": "Yuki Tsunoda",
+      "points": 0,
+      "wins": 0,
+      "races": 3,
+      "positions": [
+        19,
+        11,
+        15
+      ]
+    },
+    {
+      "driver": "Nyck de Vries",
+      "points": 0,
+      "wins": 0,
+      "races": 1,
+      "positions": [
+        14
+      ]
+    },
+    {
+      "driver": "Logan Sargeant",
+      "points": 0,
+      "wins": 0,
+      "races": 2,
+      "positions": [
+        16,
+        14
+      ]
+    }
+  ],
+  "scuderias": [
+    {
+      "scuderia": "Red Bull",
+      "points": 123,
+      "wins": 3
+    },
+    {
+      "scuderia": "Ferrari",
+      "points": 68,
+      "wins": 0
+    },
+    {
+      "scuderia": "Mercedes",
+      "points": 43,
+      "wins": 0
+    },
+    {
+      "scuderia": "Aston Martin",
+      "points": 25,
+      "wins": 0
+    },
+    {
+      "scuderia": "McLaren",
+      "points": 22,
+      "wins": 0
+    },
+    {
+      "scuderia": "Alpine",
+      "points": 14,
+      "wins": 0
+    },
+    {
+      "scuderia": "AlphaTauri",
+      "points": 4,
+      "wins": 0
+    },
+    {
+      "scuderia": "Haas",
+      "points": 4,
+      "wins": 0
+    },
+    {
+      "scuderia": "Alfa Romeo",
+      "points": 0,
+      "wins": 0
+    },
+    {
+      "scuderia": "Williams",
+      "points": 0,
+      "wins": 0
+    },
+    {
+      "scuderia": "Racing Bulls",
+      "points": 0,
+      "wins": 0
+    },
+    {
+      "scuderia": "Sauber",
+      "points": 0,
+      "wins": 0
+    }
+  ]
+}

@@ -46,6 +46,11 @@ export default function Navbar() {
               Seasons
             </Link>
           </li>
+          <li>
+            <Link href="/historic" className="hover:text-red-500 transition">
+              Historic Table
+            </Link>
+          </li>
         </ul>
 
         {/* Menú Móvil */}
@@ -56,7 +61,7 @@ export default function Navbar() {
 
       {/* Menú Móvil desplegable */}
       {isOpen && (
-        <ul className="md:hidden mt-2 space-y-2 bg-gray-800 p-4 rounded-lg">
+        <ul className="md:hidden mt-2 space-y-4 bg-gray-800 px-2 py-5 rounded-lg">
           <li onClick={() => setIsOpen(false)}>
             <Link href="/tracks" className="hover:text-red-500 transition">
               Tracks
@@ -67,9 +72,14 @@ export default function Navbar() {
               Rare Standings
             </Link>
           </li>
-          <li>
+          <li onClick={() => setIsOpen(false)}>
             <Link href="/seasons" className="hover:text-red-500 transition">
               Seasons
+            </Link>
+          </li>
+          <li onClick={() => setIsOpen(false)}>
+            <Link href="/historic" className="hover:text-red-500 transition">
+              Historic Table
             </Link>
           </li>
         </ul>
