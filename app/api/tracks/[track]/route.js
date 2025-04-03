@@ -28,9 +28,9 @@ export async function GET(req, { params }) {
       const addPoints = (driver, points, fastedLap) => {
         const currentPoints = pointsMap.get(driver) || 0;
 
-        if (fastedLap) {
-          points += 1;
-        }
+        // if (fastedLap) {
+        //   points += 1;
+        // }
 
         pointsMap.set(driver, currentPoints + points);
       };
@@ -38,9 +38,9 @@ export async function GET(req, { params }) {
       const addScuderiaPoints = (scuderia, points, fastedLap) => {
         const currentPoints = scuderiaRanking.get(scuderia) || 0;
 
-        if (fastedLap) {
-          points += 1;
-        }
+        // if (fastedLap) {
+        //   points += 1;
+        // }
 
         scuderiaRanking.set(scuderia, currentPoints + points);
       };

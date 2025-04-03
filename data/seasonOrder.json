@@ -1,8 +1,8 @@
 {
   "2025": ["melbourne", "shanghai"],
-  "2024": ["Bahrain", "Jeddah", "melbourne", "suzuka", "shanghai", "miami"],
-  "2023": ["Bahrain", "Jeddah", "melbourne", "suzuka"],
-  "2022": ["Bahrain", "Jeddah", "melbourne", "suzuka"],
+  "2024": ["bahrain", "jeddah", "melbourne", "suzuka", "shanghai", "miami"],
+  "2023": ["bahrain", "jeddah", "melbourne", "miami", "suzuka"],
+  "2022": ["bahrain", "jeddah", "melbourne", "miami", "suzuka"],
   "2019": ["melbourne", "shanghai"],
   "2018": ["shanghai"],
   "2017": ["shanghai"]

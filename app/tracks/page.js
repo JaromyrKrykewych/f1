@@ -34,7 +34,7 @@ const tracks = [
   {
     name: "Miami",
     alias: "Miami Grand Prix",
-    races: 1,
+    races: 3,
     path: "/tracks/miami",
   },
 ];
