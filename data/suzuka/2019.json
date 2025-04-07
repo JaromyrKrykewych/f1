@@ -1,0 +1,187 @@
+{
+  "race": "Japanese Grand Prix",
+  "laps": 52,
+  "year": 2019,
+  "results": [
+    {
+      "driver": "Valtteri Bottas",
+      "scuderia": "Mercedes",
+      "position": 1,
+      "pointsRace": 25,
+      "finalPoints": 25,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Sebastian Vettel",
+      "scuderia": "Ferrari",
+      "position": 2,
+      "pointsRace": 18,
+      "finalPoints": 18,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "scuderia": "Mercedes",
+      "position": 3,
+      "pointsRace": 15,
+      "finalPoints": 16,
+      "lapsLed": 0,
+      "fastedLap": true
+    },
+    {
+      "driver": "Alexander Albon",
+      "scuderia": "Red Bull",
+      "position": 4,
+      "pointsRace": 12,
+      "finalPoints": 12,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "McLaren",
+      "position": 5,
+      "pointsRace": 10,
+      "finalPoints": 10,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Charles Leclerc",
+      "scuderia": "Ferrari",
+      "position": 6,
+      "pointsRace": 8,
+      "finalPoints": 8,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Pierre Gasly",
+      "scuderia": "Toro Rosso",
+      "position": 7,
+      "pointsRace": 6,
+      "finalPoints": 6,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Sergio Perez",
+      "scuderia": "Racing Point",
+      "position": 8,
+      "pointsRace": 4,
+      "finalPoints": 4,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lance Stroll",
+      "scuderia": "Racing Point",
+      "position": 9,
+      "pointsRace": 2,
+      "finalPoints": 2,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Daniil Kvyat",
+      "scuderia": "Toro Rosso",
+      "position": 10,
+      "pointsRace": 1,
+      "finalPoints": 1,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lando Norris",
+      "scuderia": "McLaren",
+      "position": 11,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Kimi Raikkonen",
+      "scuderia": "Alfa Romeo",
+      "position": 12,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Romain Grosjean",
+      "scuderia": "Haas",
+      "position": 13,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Antonio Giovinazzi",
+      "scuderia": "Alfa Romeo",
+      "position": 14,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Kevin Magnussen",
+      "scuderia": "Haas",
+      "position": 15,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "George Russell",
+      "scuderia": "Williams",
+      "position": 16,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Robert Kubica",
+      "scuderia": "Williams",
+      "position": 17,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Max Verstappen",
+      "scuderia": "Red Bull",
+      "position": 18,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Daniel Ricciardo",
+      "scuderia": "Renault",
+      "position": 19,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Nico Hulkenberg",
+      "scuderia": "Renault",
+      "position": 20,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    }
+  ]
+}
