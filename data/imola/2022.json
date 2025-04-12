@@ -1,0 +1,252 @@
+{
+  "race": "Emilia Romagna Grand Prix",
+  "laps": 63,
+  "year": 2022,
+  "results": [
+    {
+      "driver": "Max Verstappen",
+      "scuderia": "Red Bull",
+      "position": 1,
+      "pointsRace": 25,
+      "finalPoints": 34,
+      "lapsLed": 63,
+      "fastedLap": true
+    },
+    {
+      "driver": "Sergio Perez",
+      "scuderia": "Red Bull",
+      "position": 2,
+      "pointsRace": 18,
+      "finalPoints": 18,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lando Norris",
+      "scuderia": "McLaren",
+      "position": 3,
+      "pointsRace": 15,
+      "finalPoints": 15,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "George Russell",
+      "scuderia": "Mercedes",
+      "position": 4,
+      "pointsRace": 12,
+      "finalPoints": 12,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Valtteri Bottas",
+      "scuderia": "Alfa Romeo",
+      "position": 5,
+      "pointsRace": 10,
+      "finalPoints": 10,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Charles Leclerc",
+      "scuderia": "Ferrari",
+      "position": 6,
+      "pointsRace": 8,
+      "finalPoints": 8,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Yuki Tsunoda",
+      "scuderia": "AlphaTauri",
+      "position": 7,
+      "pointsRace": 6,
+      "finalPoints": 6,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Sebastian Vettel",
+      "scuderia": "Aston Martin",
+      "position": 8,
+      "pointsRace": 4,
+      "finalPoints": 4,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Kevin Magnussen",
+      "scuderia": "Haas",
+      "position": 9,
+      "pointsRace": 2,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lance Stroll",
+      "scuderia": "Aston Martin",
+      "position": 10,
+      "pointsRace": 1,
+      "finalPoints": 1,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Alexander Albon",
+      "scuderia": "Williams",
+      "position": 11,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Pierre Gasly",
+      "scuderia": "AlphaTauri",
+      "position": 12,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "scuderia": "Mercedes",
+      "position": 13,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Esteban Ocon",
+      "scuderia": "Alpine",
+      "position": 14,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Guanyu Zhou",
+      "scuderia": "Alfa Romeo",
+      "position": 15,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Nicholas Latifi",
+      "scuderia": "Williams",
+      "position": 16,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Mick Schumacher",
+      "scuderia": "Haas",
+      "position": 17,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Daniel Ricciardo",
+      "scuderia": "McLaren",
+      "position": 18,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Fernando Alonso",
+      "scuderia": "Alpine",
+      "position": 19,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "Ferrari",
+      "position": 20,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    }
+  ],
+  "sprint": [
+    {
+      "driver": "Max Verstappen",
+      "scuderia": "Red Bull",
+      "position": 1,
+      "pointsRace": 8,
+      "lapsLed": 19,
+      "fastedLap": false
+    },
+    {
+      "driver": "Charles Leclerc",
+      "scuderia": "Ferrari",
+      "position": 2,
+      "pointsRace": 7,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Sergio Perez",
+      "scuderia": "Red Bull",
+      "position": 3,
+      "pointsRace": 6,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "Ferrari",
+      "position": 4,
+      "pointsRace": 5,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lando Norris",
+      "scuderia": "McLaren",
+      "position": 5,
+      "pointsRace": 4,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Daniel Ricciardo",
+      "scuderia": "McLaren",
+      "position": 6,
+      "pointsRace": 3,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Valtteri Bottas",
+      "scuderia": "Alfa Romeo",
+      "position": 7,
+      "pointsRace": 2,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Kevin Magnussen",
+      "scuderia": "Haas",
+      "position": 8,
+      "pointsRace": 1,
+      "lapsLed": 0,
+      "fastedLap": false
+    }
+  ]
+}

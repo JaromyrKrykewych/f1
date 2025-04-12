@@ -1,9 +1,7 @@
-const Standing = ({ standings, cols }) => {
+const Standing = ({ standings, cols, title }) => {
   return (
     <div className={`w-full max-w-md mx-auto`}>
-      <h2 className="text-white text-xl font-bold mb-5">
-        {`Ranking by points`}
-      </h2>
+      <h2 className="text-white text-xl font-bold mb-5">{title}</h2>
       {/* Encabezado */}
       <div className="grid grid-cols-[15%_40%_15%_15%_15%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
         <span>Pos.</span>

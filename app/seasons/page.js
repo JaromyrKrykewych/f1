@@ -10,7 +10,7 @@ const seasons = [
   {
     year: 2024,
     leader: "Max Verstappen",
-    races: 6,
+    races: 7,
     path: "/seasons/2024",
   },
   {
@@ -22,7 +22,7 @@ const seasons = [
   {
     year: 2022,
     leader: "Charles Leclerc",
-    races: 5,
+    races: 6,
     path: "/seasons/2022",
   },
   {

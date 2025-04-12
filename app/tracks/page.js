@@ -37,6 +37,12 @@ const tracks = [
     races: 3,
     path: "/tracks/miami",
   },
+  {
+    name: "Imola",
+    alias: "Emilia Romagna Grand Prix",
+    races: 2,
+    path: "/tracks/imola",
+  },
 ];
 
 const Tracks = () => {
