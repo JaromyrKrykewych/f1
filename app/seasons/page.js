@@ -4,7 +4,7 @@ const seasons = [
   {
     year: 2025,
     leader: "Lando Norris",
-    races: 3,
+    races: 4,
     path: "/seasons/2025",
   },
   {
@@ -24,6 +24,12 @@ const seasons = [
     leader: "Charles Leclerc",
     races: 6,
     path: "/seasons/2022",
+  },
+  {
+    year: 2021,
+    leader: "Lewis Hamilton",
+    races: 2,
+    path: "/seasons/2021",
   },
   {
     year: 2019,
