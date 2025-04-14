@@ -22,7 +22,7 @@ const tracks = [
   {
     name: "Bahrain",
     alias: "Bahrain Grand Prix",
-    races: 3,
+    races: 5,
     path: "/tracks/bahrain",
   },
   {

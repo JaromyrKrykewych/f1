@@ -1,8 +1,13 @@
 "use client";
 
+import {
+  F1Loading,
+  StandingContainer,
+  StandingHeading,
+  StandingItem,
+} from "@/components";
 import { useEffect, useState } from "react";
 
-import { F1Loading } from "@/components";
 import { useParams } from "next/navigation";
 
 const fetchSeasonStats = async (year) => {
@@ -57,104 +62,80 @@ const SeasonYear = () => {
               Scuderias
             </button>
           </div>
+
           {/* Drivers */}
-          <div
-            className={`${
-              standingShowed !== "drivers" && "hidden"
-            } w-full max-w-md mx-auto md:flex md:flex-col`}
+          <StandingContainer
+            title="Driver's Standing"
+            maxWidth="max-w-md"
+            visible={standingShowed === "drivers"}
           >
-            <h2 className="text-white text-xl font-bold mb-5">
-              {`Driver's Standing`}
-            </h2>
-            {/* Encabezado */}
-            <div className="grid grid-cols-[12%_36%_28%_12%_12%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
-              <span>Pos.</span>
-              <span>Driver</span>
-              <span>Team</span>
-              <span className="text-center">Wins</span>
-              <span className="text-center">Pts</span>
-            </div>
+            <StandingHeading
+              columns={[
+                { title: "Pos.", width: "12%" },
+                { title: "Driver", width: "36%" },
+                { title: "Team", width: "28%" },
+                { title: "Wins", width: "12%", align: "center" },
+                { title: "Pts", width: "12%", align: "center" },
+              ]}
+            />
+            <StandingItem
+              data={standings}
+              columns={[
+                {
+                  key: "position",
+                  title: "Pos.",
+                  width: "12%",
+                  bold: true,
+                  textSize: "text-lg",
+                },
+                { key: "driver", title: "Driver", width: "36%" },
+                { key: "scuderia", title: "Team", width: "28%" },
+                { key: "wins", title: "Wins", width: "12%", align: "center" },
+                {
+                  key: "points",
+                  title: "Pts",
+                  width: "12%",
+                  align: "center",
+                  color: "red",
+                },
+              ]}
+            />
+          </StandingContainer>
 
-            {/* Filas de pilotos */}
-            <div className="flex flex-col">
-              {standings.map((entry, index) => (
-                <div
-                  key={index}
-                  className={`grid grid-cols-[12%_36%_28%_12%_12%] py-3 px-4 border-b border-gray-500 items-center
-                ${
-                  index === 0
-                    ? "bg-yellow-500 text-gray-900 font-bold"
-                    : index === 1
-                    ? "bg-gray-400 text-gray-900 font-bold"
-                    : index === 2
-                    ? "bg-orange-500 text-gray-900 font-bold"
-                    : "bg-gradient-to-b from-gray-800 to-gray-600 text-white"
-                }
-                ${
-                  index === standings.length - 1
-                    ? "rounded-b-2xl"
-                    : "rounded-none"
-                }
-                `}
-                >
-                  <span className="font-bold text-lg">{entry.position}</span>
-                  <span>{entry.driver}</span>
-                  <span>{entry.scuderia}</span>
-                  <span className="text-center">{entry.wins}</span>
-                  <span className="font-semibold text-red-500 text-center">
-                    {entry.points}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
           {/* Scuderias */}
-          <div
-            className={`${
-              standingShowed !== "scuderias" && "hidden"
-            } w-full max-w-xs mx-auto md:flex md:flex-col`}
+          <StandingContainer
+            title="Scuderia's Standing"
+            maxWidth="max-w-xs"
+            visible={standingShowed === "scuderias"}
           >
-            <h2 className="text-white text-xl font-bold mb-5">
-              {`Scuderia's Standing`}
-            </h2>
-            {/* Encabezado */}
-            <div className="grid grid-cols-[20%_55%_25%] bg-gray-700 text-white font-bold py-3 px-4 rounded-t-2xl">
-              <span>Pos.</span>
-              <span>Scuderia</span>
-              <span className="text-center">Pts</span>
-            </div>
-
-            {/* Filas de pilotos */}
-            <div className="flex flex-col">
-              {scuderiaStandings.map((entry, index) => (
-                <div
-                  key={index}
-                  className={`grid grid-cols-[20%_55%_25%] py-3 px-4 border-b border-gray-500 items-center
-                ${
-                  index === 0
-                    ? "bg-yellow-500 text-gray-900 font-bold"
-                    : index === 1
-                    ? "bg-gray-400 text-gray-900 font-bold"
-                    : index === 2
-                    ? "bg-orange-500 text-gray-900 font-bold"
-                    : "bg-gradient-to-b from-gray-800 to-gray-600 text-white"
-                }
-                ${
-                  index === scuderiaStandings.length - 1
-                    ? "rounded-b-2xl"
-                    : "rounded-none"
-                }
-                `}
-                >
-                  <span className="font-bold text-lg">{entry.position}</span>
-                  <span>{entry.scuderia}</span>
-                  <span className="font-semibold text-red-500 text-center">
-                    {entry.points}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
+            <StandingHeading
+              columns={[
+                { title: "Pos.", width: "20%" },
+                { title: "Scuderia", width: "55%" },
+                { title: "Pts", width: "25%", align: "center" },
+              ]}
+            />
+            <StandingItem
+              data={scuderiaStandings}
+              columns={[
+                {
+                  key: "position",
+                  title: "Pos.",
+                  width: "20%",
+                  bold: true,
+                  textSize: "text-lg",
+                },
+                { key: "scuderia", title: "Scuderia", width: "55%" },
+                {
+                  key: "points",
+                  title: "Pts",
+                  width: "25%",
+                  align: "center",
+                  color: "red",
+                },
+              ]}
+            />
+          </StandingContainer>
         </div>
       )}
     </div>
