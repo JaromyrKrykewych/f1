@@ -8,8 +8,6 @@ import {
 } from "@/components";
 import { useEffect, useState } from "react";
 
-import Standing from "@/components/standing";
-import { color } from "framer-motion";
 import { useParams } from "next/navigation";
 
 const fetchTrackStats = async (track) => {
