@@ -9,7 +9,7 @@
       "position": 1,
       "pointsRace": 25,
       "finalPoints": 25,
-      "lapsLed": 56,
+      "lapsLed": 53,
       "fastedLap": false
     },
     {
@@ -18,7 +18,7 @@
       "position": 2,
       "pointsRace": 18,
       "finalPoints": 18,
-      "lapsLed": 0,
+      "lapsLed": 2,
       "fastedLap": false
     },
     {
@@ -63,7 +63,7 @@
       "position": 7,
       "pointsRace": 6,
       "finalPoints": 6,
-      "lapsLed": 0,
+      "lapsLed": 1,
       "fastedLap": false
     },
     {

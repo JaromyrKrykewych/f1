@@ -8,32 +8,32 @@
       "pointsRace": 25
     },
     {
-      "driver": "Sergio Perez",
+      "driver": "Charles Leclerc",
       "position": 2,
       "pointsRace": 18
     },
     {
-      "driver": "Charles Leclerc",
+      "driver": "Sergio Perez",
       "position": 3,
       "pointsRace": 15
     },
     {
-      "driver": "George Russell",
+      "driver": "Lewis Hamilton",
       "position": 4,
       "pointsRace": 12
     },
     {
-      "driver": "Fernando Alonso",
+      "driver": "Carlos Sainz, Jr.",
       "position": 5,
       "pointsRace": 10
     },
     {
-      "driver": "Carlos Sainz, Jr.",
+      "driver": "George Russell",
       "position": 6,
       "pointsRace": 8
     },
     {
-      "driver": "Lewis Hamilton",
+      "driver": "Oscar Piastri",
       "position": 7,
       "pointsRace": 6
     },
@@ -43,7 +43,7 @@
       "pointsRace": 4
     },
     {
-      "driver": "Oscar Piastri",
+      "driver": "Fernando Alonso",
       "position": 9,
       "pointsRace": 2
     },
@@ -53,52 +53,52 @@
       "pointsRace": 1
     },
     {
-      "driver": "Kevin Magnussen",
+      "driver": "Kimi Antonelli",
       "position": 11,
       "pointsRace": 0
     },
     {
-      "driver": "Oliver Bearman",
+      "driver": "Pierre Gasly",
       "position": 12,
       "pointsRace": 0
     },
     {
-      "driver": "Pierre Gasly",
+      "driver": "Kevin Magnussen",
       "position": 13,
       "pointsRace": 0
     },
     {
-      "driver": "Nico Hulkenberg",
+      "driver": "Oliver Bearman",
       "position": 14,
       "pointsRace": 0
     },
     {
-      "driver": "Guanyu Zhou",
+      "driver": "Valtteri Bottas",
       "position": 15,
       "pointsRace": 0
     },
     {
-      "driver": "Alexander Albon",
+      "driver": "Daniel Ricciardo",
       "position": 16,
       "pointsRace": 0
     },
     {
-      "driver": "Yuki Tsunoda",
+      "driver": "Antonio Giovinazzi",
       "position": 17,
       "pointsRace": 0
     },
     {
-      "driver": "Logan Sargeant",
+      "driver": "Nico Hulkenberg",
       "position": 18,
       "pointsRace": 0
     },
     {
-      "driver": "Nyck de Vries",
+      "driver": "Alexander Albon",
       "position": 19,
       "pointsRace": 0
     },
     {
-      "driver": "Valtteri Bottas",
+      "driver": "Isack Hadjar",
       "position": 20,
       "pointsRace": 0
     }
@@ -110,47 +110,47 @@
       "pointsRace": 25
     },
     {
-      "scuderia": "Ferrari",
+      "scuderia": "Mercedes",
       "position": 2,
       "pointsRace": 18
     },
     {
-      "scuderia": "Mercedes",
+      "scuderia": "Ferrari",
       "position": 3,
       "pointsRace": 15
     },
     {
-      "scuderia": "Aston Martin",
+      "scuderia": "McLaren",
       "position": 4,
       "pointsRace": 12
     },
     {
-      "scuderia": "McLaren",
+      "scuderia": "Alpine",
       "position": 5,
       "pointsRace": 10
     },
     {
-      "scuderia": "Alpine",
+      "scuderia": "Aston Martin",
       "position": 6,
       "pointsRace": 8
     },
     {
-      "scuderia": "Haas",
+      "scuderia": "AlphaTauri",
       "position": 7,
       "pointsRace": 6
     },
     {
-      "scuderia": "AlphaTauri",
+      "scuderia": "Williams",
       "position": 8,
       "pointsRace": 4
     },
     {
-      "scuderia": "Alfa Romeo",
+      "scuderia": "Haas",
       "position": 9,
       "pointsRace": 2
     },
     {
-      "scuderia": "Williams",
+      "scuderia": "Alfa Romeo",
       "position": 10,
       "pointsRace": 1
     }

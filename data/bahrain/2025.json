@@ -9,7 +9,7 @@
       "position": 1,
       "pointsRace": 25,
       "finalPoints": 25,
-      "lapsLed": 0,
+      "lapsLed": 54,
       "fastedLap": false
     },
     {
@@ -36,7 +36,7 @@
       "position": 4,
       "pointsRace": 12,
       "finalPoints": 12,
-      "lapsLed": 0,
+      "lapsLed": 3,
       "fastedLap": false
     },
     {
@@ -112,7 +112,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Nico Hulkenberg",
+      "driver": "Isack Hadjar",
       "scuderia": "Sauber",
       "position": 13,
       "pointsRace": 0,
@@ -121,7 +121,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Isack Hadjar",
+      "driver": "Jack Doohan",
       "scuderia": "Racing Bulls",
       "position": 14,
       "pointsRace": 0,
@@ -130,7 +130,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Jack Doohan",
+      "driver": "Fernando Alonso",
       "scuderia": "Alpine",
       "position": 15,
       "pointsRace": 0,
@@ -139,7 +139,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Fernando Alonso",
+      "driver": "Liam Lawson",
       "scuderia": "Aston Martin",
       "position": 16,
       "pointsRace": 0,
@@ -148,7 +148,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Liam Lawson",
+      "driver": "Lance Stroll",
       "scuderia": "Racing Bulls",
       "position": 17,
       "pointsRace": 0,
@@ -157,7 +157,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Lance Stroll",
+      "driver": "Gabriel Bortoleto",
       "scuderia": "Aston Martin",
       "position": 18,
       "pointsRace": 0,
@@ -166,7 +166,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Gabriel Bortoleto",
+      "driver": "Carlos Sainz, Jr.",
       "scuderia": "Sauber",
       "position": 19,
       "pointsRace": 0,
@@ -175,7 +175,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Carlos Sainz, Jr.",
+      "driver": "Nico Hulkenberg",
       "scuderia": "Williams",
       "position": 20,
       "pointsRace": 0,

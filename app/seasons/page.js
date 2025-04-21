@@ -3,14 +3,14 @@ import Link from "next/link";
 const seasons = [
   {
     year: 2025,
-    leader: "Lando Norris",
-    races: 4,
+    leader: "Oscar Piastri",
+    races: 5,
     path: "/seasons/2025",
   },
   {
     year: 2024,
     leader: "Max Verstappen",
-    races: 7,
+    races: 8,
     path: "/seasons/2024",
   },
   {
@@ -28,7 +28,7 @@ const seasons = [
   {
     year: 2021,
     leader: "Lewis Hamilton",
-    races: 2,
+    races: 3,
     path: "/seasons/2021",
   },
   {

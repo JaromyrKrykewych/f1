@@ -28,7 +28,7 @@ const tracks = [
   {
     name: "Jeddah",
     alias: "Saudi Arabian Grand Prix",
-    races: 3,
+    races: 5,
     path: "/tracks/jeddah",
   },
   {
@@ -42,6 +42,12 @@ const tracks = [
     alias: "Emilia Romagna Grand Prix",
     races: 3,
     path: "/tracks/imola",
+  },
+  {
+    name: "Monte Carlo",
+    alias: "Monaco Grand Prix",
+    races: 1,
+    path: "/tracks/monte-carlo",
   },
 ];
 
