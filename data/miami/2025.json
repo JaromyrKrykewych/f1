@@ -1,6 +1,6 @@
 {
-  "race": "Saudi Arabian Grand Prix",
-  "laps": 50,
+  "race": "Miami Grand Prix",
+  "laps": 57,
   "year": 2025,
   "results": [
     {
@@ -9,39 +9,39 @@
       "position": 1,
       "pointsRace": 25,
       "finalPoints": 25,
-      "lapsLed": 17,
-      "fastedLap": false
-    },
-    {
-      "driver": "Max Verstappen",
-      "scuderia": "Red Bull",
-      "position": 2,
-      "pointsRace": 18,
-      "finalPoints": 18,
-      "lapsLed": 21,
-      "fastedLap": false
-    },
-    {
-      "driver": "Charles Leclerc",
-      "scuderia": "Ferrari",
-      "position": 3,
-      "pointsRace": 15,
-      "finalPoints": 15,
-      "lapsLed": 8,
+      "lapsLed": 44,
       "fastedLap": false
     },
     {
       "driver": "Lando Norris",
       "scuderia": "McLaren",
-      "position": 4,
-      "pointsRace": 12,
-      "finalPoints": 12,
-      "lapsLed": 4,
+      "position": 2,
+      "pointsRace": 18,
+      "finalPoints": 18,
+      "lapsLed": 0,
       "fastedLap": false
     },
     {
       "driver": "George Russell",
       "scuderia": "Mercedes",
+      "position": 3,
+      "pointsRace": 15,
+      "finalPoints": 15,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Max Verstappen",
+      "scuderia": "Red Bull",
+      "position": 4,
+      "pointsRace": 12,
+      "finalPoints": 12,
+      "lapsLed": 13,
+      "fastedLap": false
+    },
+    {
+      "driver": "Alexander Albon",
+      "scuderia": "Williams",
       "position": 5,
       "pointsRace": 10,
       "finalPoints": 10,
@@ -58,7 +58,7 @@
       "fastedLap": false
     },
     {
-      "driver": "Lewis Hamilton",
+      "driver": "Charles Leclerc",
       "scuderia": "Ferrari",
       "position": 7,
       "pointsRace": 6,
@@ -67,8 +67,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Carlos Sainz, Jr.",
-      "scuderia": "Williams",
+      "driver": "Lewis Hamilton",
+      "scuderia": "Ferrari",
       "position": 8,
       "pointsRace": 4,
       "finalPoints": 4,
@@ -76,8 +76,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Alexander Albon",
-      "scuderia": "Williams",
+      "driver": "Carlos Sainz, Jr.",
+      "scuderia": "Ferrari",
       "position": 9,
       "pointsRace": 2,
       "finalPoints": 2,
@@ -85,8 +85,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Isack Hadjar",
-      "scuderia": "Racing Bulls",
+      "driver": "Yuki Tsunoda",
+      "scuderia": "Red Bull",
       "position": 10,
       "pointsRace": 1,
       "finalPoints": 1,
@@ -94,27 +94,9 @@
       "fastedLap": false
     },
     {
-      "driver": "Fernando Alonso",
-      "scuderia": "Aston Martin",
-      "position": 11,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Liam Lawson",
+      "driver": "Isack Hadjar",
       "scuderia": "Racing Bulls",
-      "position": 12,
-      "pointsRace": 0,
-      "finalPoints": 0,
-      "lapsLed": 0,
-      "fastedLap": false
-    },
-    {
-      "driver": "Oliver Bearman",
-      "scuderia": "Haas",
-      "position": 13,
+      "position": 11,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -123,7 +105,16 @@
     {
       "driver": "Esteban Ocon",
       "scuderia": "Haas",
-      "position": 14,
+      "position": 12,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Pierre Gasly",
+      "scuderia": "Alpine",
+      "position": 13,
       "pointsRace": 0,
       "finalPoints": 0,
       "lapsLed": 0,
@@ -132,6 +123,15 @@
     {
       "driver": "Nico Hulkenberg",
       "scuderia": "Sauber",
+      "position": 14,
+      "pointsRace": 0,
+      "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Fernando Alonso",
+      "scuderia": "Aston Martin",
       "position": 15,
       "pointsRace": 0,
       "finalPoints": 0,
@@ -148,8 +148,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Jack Doohan",
-      "scuderia": "Alpine",
+      "driver": "Liam Lawson",
+      "scuderia": "Racing Bulls",
       "position": 17,
       "pointsRace": 0,
       "finalPoints": 0,
@@ -166,8 +166,8 @@
       "fastedLap": false
     },
     {
-      "driver": "Yuki Tsunoda",
-      "scuderia": "Red Bull",
+      "driver": "Oliver Bearman",
+      "scuderia": "Haas",
       "position": 19,
       "pointsRace": 0,
       "finalPoints": 0,
@@ -175,11 +175,77 @@
       "fastedLap": false
     },
     {
-      "driver": "Pierre Gasly",
+      "driver": "Jack Doohan",
       "scuderia": "Alpine",
       "position": 20,
       "pointsRace": 0,
       "finalPoints": 0,
+      "lapsLed": 0,
+      "fastedLap": false
+    }
+  ],
+  "sprint": [
+    {
+      "driver": "Lando Norris",
+      "scuderia": "McLaren",
+      "position": 1,
+      "pointsRace": 8,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Oscar Piastri",
+      "scuderia": "McLaren",
+      "position": 2,
+      "pointsRace": 7,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lewis Hamilton",
+      "scuderia": "Ferrari",
+      "position": 3,
+      "pointsRace": 6,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "George Russell",
+      "scuderia": "Mercedes",
+      "position": 4,
+      "pointsRace": 5,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Lance Stroll",
+      "scuderia": "Aston Martin",
+      "position": 5,
+      "pointsRace": 4,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Yuki Tsunoda",
+      "scuderia": "Red Bull",
+      "position": 6,
+      "pointsRace": 3,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Kimi Antonelli",
+      "scuderia": "Mercedes",
+      "position": 7,
+      "pointsRace": 2,
+      "lapsLed": 0,
+      "fastedLap": false
+    },
+    {
+      "driver": "Pierre Gasly",
+      "scuderia": "Alpine",
+      "position": 8,
+      "pointsRace": 1,
       "lapsLed": 0,
       "fastedLap": false
     }
